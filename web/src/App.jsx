@@ -3,7 +3,7 @@ import LiveRunner from "./LiveRunner.jsx";
 
 const RELEASE = "https://github.com/osram90/notebook-IAstudio/releases/latest";
 const REPO = "https://github.com/osram90/notebook-IAstudio";
-const APK = "https://github.com/osram90/notebook-IAstudio/releases/download/movil-v1.2.1/NotebookStudio-movil-1.2.1.apk";
+const APK = "https://github.com/osram90/notebook-IAstudio/releases/download/movil-v1.2.3/NotebookStudio-movil-1.2.3.apk";
 
 const features = [
   {
