@@ -235,6 +235,18 @@ function Shots() {
           </Reveal>
           <Reveal>
             <figure className="shot">
+              <img src="img/android-ia.png" alt="Versión Android: elegir una IA gratis entre varias opciones" loading="lazy" />
+              <figcaption>Versión Android: elige una IA gratis (Groq, Gemini, Kilo y más) o Ollama en Termux.</figcaption>
+            </figure>
+          </Reveal>
+          <Reveal>
+            <figure className="shot">
+              <img src="img/android-lista-modelos.png" alt="Versión Android: lista de modelos para reserva o combinar" loading="lazy" />
+              <figcaption>Versión Android: varios modelos como reserva, o combinados en una misma pregunta.</figcaption>
+            </figure>
+          </Reveal>
+          <Reveal>
+            <figure className="shot">
               <img src="img/android-ajustes.png" alt="Pantalla de ajustes de la versión Android" loading="lazy" />
               <figcaption>Versión Android: ajustes del proveedor de IA con tu propia clave.</figcaption>
             </figure>
