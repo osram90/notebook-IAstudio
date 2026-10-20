@@ -3,6 +3,7 @@ import LiveRunner from "./LiveRunner.jsx";
 
 const RELEASE = "https://github.com/osram90/notebook-IAstudio/releases/latest";
 const REPO = "https://github.com/osram90/notebook-IAstudio";
+const APK = "https://github.com/osram90/notebook-IAstudio/releases/download/movil-v1.0.0/NotebookStudio-movil-1.0.0.apk";
 
 const features = [
   {
@@ -220,6 +221,24 @@ function Shots() {
               <figcaption>La app: notebook a la izquierda y asistente a la derecha.</figcaption>
             </figure>
           </Reveal>
+          <Reveal>
+            <figure className="shot">
+              <img src="img/windows-escritorio.png" alt="Notebook Studio en Windows junto a la página publicada" loading="lazy" />
+              <figcaption>Notebook Studio en Windows, con la terminal de desarrollo abierta.</figcaption>
+            </figure>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <figure className="shot">
+              <img src="img/android-notebook.png" alt="Notebook Studio en Android con una celda Python ejecutada" loading="lazy" />
+              <figcaption>Versión Android: celda Python ejecutada en el teléfono.</figcaption>
+            </figure>
+          </Reveal>
+          <Reveal>
+            <figure className="shot">
+              <img src="img/android-ajustes.png" alt="Pantalla de ajustes de la versión Android" loading="lazy" />
+              <figcaption>Versión Android: ajustes del proveedor de IA con tu propia clave.</figcaption>
+            </figure>
+          </Reveal>
         </div>
       </div>
     </section>
@@ -242,7 +261,11 @@ function Install() {
             Windows 10 u 11 de 64 bits. El instalador no está firmado todavía, así que SmartScreen
             puede mostrar una advertencia: elige “Más información” y luego “Ejecutar de todos modos”.
           </p>
-          <a className="btn btn-run-lg" href={RELEASE}>Ir a la descarga</a>
+          <div className="cta">
+            <a className="btn btn-run-lg" href={RELEASE}>Descargar para Windows</a>
+            <a className="btn btn-ghost" href={APK}>Descargar APK para Android</a>
+          </div>
+          <p className="fine">El APK es para Android 7 o superior. Tendrás que permitir la instalación desde “origen desconocido” la primera vez.</p>
         </Reveal>
         <ol className="steps">
           {steps.map((s, i) => (
