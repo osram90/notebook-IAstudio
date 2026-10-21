@@ -3,6 +3,7 @@ import LiveRunner from "./LiveRunner.jsx";
 
 const RELEASE = "https://github.com/osram90/notebook-IAstudio/releases/latest";
 const REPO = "https://github.com/osram90/notebook-IAstudio";
+const WIN = "https://github.com/osram90/notebook-IAstudio/releases/download/v1.0.1/NotebookStudio-Setup-1.0.1.exe";
 const APK = "https://github.com/osram90/notebook-IAstudio/releases/download/movil-v1.2.3/NotebookStudio-movil-1.2.3.apk";
 
 const features = [
@@ -274,7 +275,7 @@ function Install() {
             puede mostrar una advertencia: elige “Más información” y luego “Ejecutar de todos modos”.
           </p>
           <div className="cta">
-            <a className="btn btn-run-lg" href={RELEASE}>Descargar para Windows</a>
+            <a className="btn btn-run-lg" href={WIN}>Descargar para Windows (1.0.1)</a>
             <a className="btn btn-ghost" href={APK}>Descargar APK para Android</a>
           </div>
           <p className="fine">El APK es para Android 7 o superior. Tendrás que permitir la instalación desde “origen desconocido” la primera vez.</p>
