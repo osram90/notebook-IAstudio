@@ -3,7 +3,7 @@ import LiveRunner from "./LiveRunner.jsx";
 
 const RELEASE = "https://github.com/osram90/notebook-IAstudio/releases/latest";
 const REPO = "https://github.com/osram90/notebook-IAstudio";
-const WIN = "https://github.com/osram90/notebook-IAstudio/releases/download/v1.0.1/NotebookStudio-Setup-1.0.1.exe";
+const WIN = "https://github.com/osram90/notebook-IAstudio/releases/download/v1.0.5/NotebookStudio-Setup-1.0.5.exe";
 const APK = "https://github.com/osram90/notebook-IAstudio/releases/download/movil-v1.2.3/NotebookStudio-movil-1.2.3.apk";
 
 const features = [
@@ -236,6 +236,18 @@ function Shots() {
           </Reveal>
           <Reveal>
             <figure className="shot">
+              <img src="img/windows-principal-105.png" alt="Notebook Studio para Windows 1.0.5 con el notebook abierto" loading="lazy" />
+              <figcaption>Windows 1.0.5: notebook, celdas y asistente de IA en una sola ventana.</figcaption>
+            </figure>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <figure className="shot">
+              <img src="img/windows-barra-105.png" alt="Barra superior de Notebook Studio con el estado de Python visible" loading="lazy" />
+              <figcaption>Barra superior: el indicador de Python siempre visible, aun en ventanas estrechas.</figcaption>
+            </figure>
+          </Reveal>
+          <Reveal>
+            <figure className="shot">
               <img src="img/android-ia.png" alt="Versión Android: elegir una IA gratis entre varias opciones" loading="lazy" />
               <figcaption>Versión Android: elige una IA gratis (Groq, Gemini, Kilo y más) o Ollama en Termux.</figcaption>
             </figure>
@@ -275,7 +287,7 @@ function Install() {
             puede mostrar una advertencia: elige “Más información” y luego “Ejecutar de todos modos”.
           </p>
           <div className="cta">
-            <a className="btn btn-run-lg" href={WIN}>Descargar para Windows (1.0.1)</a>
+            <a className="btn btn-run-lg" href={WIN}>Descargar para Windows (1.0.5)</a>
             <a className="btn btn-ghost" href={APK}>Descargar APK para Android</a>
           </div>
           <p className="fine">El APK es para Android 7 o superior. Tendrás que permitir la instalación desde “origen desconocido” la primera vez.</p>
